@@ -1,0 +1,137 @@
+body {
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	opacity: 0.9;
+	background-position: 50% 0;
+	background-size: cover;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+* {
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	border: 0;
+	padding: 30px;
+	background-color: rgba(55, 159, 138, 0.3);
+	border-radius: 5px;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	margin-bottom: 60px;
+}
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+::placeholder {
+	letter-spacing: 10px;
+}
+
+.log_out {
+	background-color: dodgerblue;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+
+button {
+	background-color: dodgerblue;
+	width: 96%;
+	height: 40px;
+	margin-left: 2%;
+	margin-right: 2%;
+	border: 0;
+	border-radius: 5px;
+	transition: ease-in-out 0.7s;
+	cursor: pointer;
+	color: white;
+}
+
+
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+a {
+	float: right;
+	margin-top: -100px;
+	background: rgb(9, 163, 186);
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+table {
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 1px solid rgb(133, 9, 9);
+}
+
+th,
+td {
+	text-align: center;
+	padding: 0;
+	width: 200px;
+
+}
+
+.loginText {
+	color: white;
+	font-weight: bold;
+}
+
+th {
+	background-color: dodgerblue;
+	color: white;
+	height: 40px;
+	font-weight: bold;
+}
+
+tr:nth-child(even) {
+	background-color: #8dafdb;
+	color: white;
+}
+
+tr:nth-child(odd) {
+	background-color: #056a70;
+	color: white;
+}
+
+.error {
+	background-color: rgb(241, 157, 218);
+	width: 96%;
+	text-align: center;
+	margin-left: 2%;
+	margin-right: 2%;
+}
